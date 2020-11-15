@@ -1,0 +1,34 @@
+@import "styles/_variables";
+@import "styles/_mixins";
+
+.btn {
+  background: $red;
+  color: $white;
+  border: 1px solid $red;
+  padding: 5px 15px;
+}
+
+input {
+  border: 1px solid silver;
+  border-radius: 4px;
+  background: white;
+  padding: 5px 10px;
+}
+
+.dirty {
+  border-color: #5a5;
+  background: #efe;
+}
+
+.dirty:focus {
+  outline-color: #8e8;
+}
+
+.error {
+  border-color: red;
+  background: #fdd;
+}
+
+.error:focus {
+  outline-color: #f99;
+}
